@@ -31,6 +31,8 @@ header {
     padding: 1%;
     background-color: white;
     color: #8babf1;
+    border-style: solid;
+    border-color: #fcc9b5;
   }
 
   footer {
@@ -62,9 +64,9 @@ header {
   font-family: cursive;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
+h3 {
+    border-style: solid;
+    border-color: #8babf1;
     padding: 1%;
-    margin: auto;;
+    margin: 1%;
 }
