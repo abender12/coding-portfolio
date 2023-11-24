@@ -15,24 +15,25 @@ header {
   }
 
   main {
-    display: inline-block;
-    justify-content: space-between;
-    align-items: right;
-    padding: 1%;
-    background-color: white;
-    color: black;
+    display: flex;
   }
-
+  
   aside {
-    display: inline-block;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: left;
-    padding: 1%;
+    flex: 30%;
     background-color: white;
     color: #8babf1;
     border-style: solid;
     border-color: #fcc9b5;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #fcc9b5;
+    padding: 20px;
   }
 
   footer {
@@ -70,4 +71,19 @@ h3 {
     border-color: #8babf1;
     padding: 1%;
     margin: 1%;
+}
+
+.box {
+  display: inline-block;
+  flex-direction: row;
+  margin: auto;
+}
+
+.box1 {
+    width: 98%;
+}
+
+.box2 {
+  width: 50%;
+  position: relative;
 }
