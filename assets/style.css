@@ -20,17 +20,16 @@ header {
   }
   
   aside {
-    flex: 30%;
+    flex: 1;
     background-color: white;
     color: #8babf1;
     border-style: solid;
     border-color: #fcc9b5;
     padding: 20px;
-    flex-wrap: wrap;
   }
   
   section {
-    flex: 70%;
+    flex: 4;
     background-color: #fff;
     border-style: solid;
     border-color: #fcc9b5;
@@ -40,7 +39,7 @@ header {
   footer {
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     padding: 1%;
     background-color: #fcc9b5;
     color: black;
@@ -63,7 +62,6 @@ header {
   nav li::before {
   content: '\2764';
   color: #b3c7f7;
-  /* padding: 1%; */
   font-family: cursive;
 }
 
@@ -74,7 +72,7 @@ h3 {
     margin: 1%;
 }
 
-.box {
+.hr {
   display: inline-flex;
   margin: auto;
   color: #FAAF90;
@@ -85,18 +83,14 @@ h3 {
   width: 98%;
   padding: 10px;
   height: 200px;
+  box-shadow: 10px 10px 10px lightgrey;
 }
 
 .box2 {
-  width: 49%;
+  width: 45%;
   padding: 10px;
   height: 100px;
-}
-
-.box3 {
-  width: 49%;
-  padding: 10px;
-  height: 100px;
+  box-shadow: 10px 10px 10px lightgrey;
 }
 
 #img1 {
