@@ -130,9 +130,13 @@ a:active {
   color: gray;
 }
 
+.hr:hover {
+  transform: scale(1.02);
+}
+
 @media screen and (max-width: 992px) {
   header {
-    background: #8babf1;
+    background: blanchedalmond;
   }
 }
 
@@ -143,5 +147,18 @@ a:active {
   }
   aside {
     order: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+  aside {
+    order: 2;
+  }
+  body {
+    width: fit-content;
   }
 }
