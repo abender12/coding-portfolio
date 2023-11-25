@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     line-height: 1.3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d9e4ff;
 }
 
 header {
@@ -111,6 +112,22 @@ h3 {
 
 #img5 {
   background-image: url(./coming-soon.webp);
+}
+
+a:link {
+  color: #8babf1;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  color: lightgray;
+}
+
+a:active {
+  color: gray;
 }
 
 @media screen and (max-width: 992px) {
